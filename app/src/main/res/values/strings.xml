@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">News App</string>
+
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_articles">No articles found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_value</string>
+
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most outdated option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Most Outdated </string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+
+    <!-- My Setting Activity -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">NewsApp Settings</string>
+
+    <string name="settings_section_label">News Category</string>
+    <string name="settings_section_category_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/all</string>
+
+
+    <!-- Strings for Section -->
+    <string name="world">world</string>
+    <string name="science">science</string>
+    <string name="sport">sport</string>
+    <string name="environment">environment</string>
+    <string name="society">society</string>
+    <string name="fashion">fashion</string>
+    <string name="business">business</string>
+    <string name="culture">culture</string>
+    <string name="technology">technology</string>
+    <string name="all">all</string>
+
+    <string name="settings_section_label_world">World</string>
+    <string name="settings_section_label_science">Science</string>
+    <string name="settings_section_label_sport">Sport</string>
+    <string name="settings_section_label_environment">Environment</string>
+    <string name="settings_section_label_society">Society</string>
+    <string name="settings_section_label_fashion">Fashion</string>
+    <string name="settings_section_label_business">Business</string>
+    <string name="settings_section_label_culture">Culture</string>
+    <string name="settings_section_label_technology">Technology</string>
+    <string name="settings_section_label_all">All</string>
+
+    <!-- Sample data for the list-->
+    <string name="sample_section_name">Politics</string>
+    <string name="sample_date">april 1</string>
+    <string name="sample_headline">Long placeholder location that should wrap to more than 2 lines of text</string>
+    <string name="sample_author">Guardian author sdfvsdfsdkfjh shdfj hsjdfh sdf jsgdfj gsdjfg shgdfgs dhfgsdfhgsdhf gsdhfg</string>
+    <string name="sample_time">11:32pm</string>
+
+
+</resources>

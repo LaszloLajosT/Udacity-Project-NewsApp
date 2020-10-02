@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for Date and Section name of an article -->
+    <style name="DateAndSectionNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+
+    <!-- Style for Headline of an article -->
+    <style name="HeadLineStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorHeadlineArticle</item>
+    </style>
+
+    <!-- Style for Author of an article -->
+    <style name="AuthorStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/widget_edittext_dark</item>
+    </style>
+
+    <!-- Style for Time of an article -->
+    <style name="TimeStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColorTime</item>
+    </style>
+
+
+</resources>
+
