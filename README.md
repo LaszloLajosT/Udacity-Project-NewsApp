@@ -2,8 +2,6 @@
 #### News Feed app
 Version 1.1
 
-Basic level
-
 ## Project Overview
 The final project is a chance for you to combine and practice everything you learned in this section of the Nanodegree program. You will be making your own app that connects to the Internet to provide news articles on a topic of your choice.
 
